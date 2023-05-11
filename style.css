@@ -9,8 +9,9 @@ body {
 }
 .nav {
     display: inline-block;
+    vertical-align: top;
     width: 1120px;
-    margin: 80px 400px;
+    margin: 79px 400px;
 }
 .nav_item {
     display: inline-block;
@@ -21,8 +22,34 @@ body {
     color: #000;
     text-transform: uppercase;
     letter-spacing: 2px;
+    line-height: 18px;
 }
 .nav_link:hover {
     color: #34547A;
     font-weight: 500;
+}
+.design_wrap {
+    margin: 81px 400px 141px 400px;
+}
+.design_title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    margin-bottom: 45px;
+    max-width: 540px;
+}
+.design_text {
+    max-width: 540px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 54px;
+}
+.design_button {
+    width: 255px;
+    height: 65px;
+    color: #fff;
+    background-color: #34547A;
+    text-transform: uppercase;
+    
 }
