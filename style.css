@@ -51,5 +51,22 @@ body {
     color: #fff;
     background-color: #34547A;
     text-transform: uppercase;
-    
+}
+.about_wrap {
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 112px 0 89px;
+}
+.title_about {
+    width: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+.text_about {
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
 }
