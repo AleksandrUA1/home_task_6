@@ -8,10 +8,11 @@ body {
     background-color: #EEEFF1;
 }
 .nav {
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     width: 1120px;
-    margin: 79px 400px;
+    padding: 79px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .nav_item {
     display: inline-block;
@@ -29,7 +30,10 @@ body {
     font-weight: 500;
 }
 .design_wrap {
-    margin: 81px 400px 141px 400px;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 81px 0 141px;
 }
 .design_title {
     font-weight: 500;
@@ -51,6 +55,11 @@ body {
     color: #fff;
     background-color: #34547A;
     text-transform: uppercase;
+    border: none;
+}
+.design_button:hover {
+    cursor: pointer;
+    background-color: #6985a8;
 }
 .about_wrap {
     width: 540px;
@@ -69,4 +78,35 @@ body {
     line-height: 26px;
     text-align: center;
     color: #727272;
+}
+.projects {
+    padding: 100px 0;
+    background-color: #34547A;
+}
+.projects_list {
+    display: block;
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project_item {
+    display: inline-block;
+    margin-right: 45px;
+}
+.project_item:last-child {
+    margin-right: 0;
+}
+.project_img {
+    display: inline-block;
+    margin-right: 20px;
+}
+.project_item_wrap {
+    display: inline-block;
+    color: #fff;
+}
+.project_title {
+    font-weight: 500;
+    font-style: 21px;
+    line-height: 24px;
+    margin-bottom: 5px;
 }
