@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: #EEEFF1;
+}
+.nav {
+    display: inline-block;
+    width: 1120px;
+    margin: 80px 400px;
+}
+.nav_item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 42px;
+}
+.nav_link {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.nav_link:hover {
+    color: #34547A;
+    font-weight: 500;
+}
