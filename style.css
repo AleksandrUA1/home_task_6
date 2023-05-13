@@ -62,8 +62,6 @@ body {
     background-color: #6985a8;
 }
 .about_wrap {
-
-
     padding: 112px 0 89px;
 }
 .title_about {
@@ -86,7 +84,7 @@ body {
     color: #727272;
 }
 .projects {
-    padding: 100px 0;
+    padding: 100px 0 97px;
     background-color: #34547A;
 }
 .projects_list {
@@ -108,13 +106,12 @@ body {
 }
 .project_item_wrap {
     display: inline-block;
-    color: #fff;
+    color: #fff; 
 }
 .project_title {
     font-weight: 500;
-    font-style: 21px;
+    font-size: 21px;
     line-height: 24px;
-    margin-bottom: 5px;
 }
 .project_text {
     font-weight: 400;
@@ -146,4 +143,25 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.footer {
+    background-color: #34547A;
+    padding: 50px 0 47px;
+}
+.footer_wrap {
+    width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer_wrap_title {
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer_wrap_text {
+    font-style: 13px;
+    line-height: 15px;
+    color: #fff;
 }
